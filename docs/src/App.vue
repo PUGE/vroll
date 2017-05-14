@@ -1,7 +1,7 @@
 <template>
-  <iscroll-view ref="scrollView" class="scroll-view" @pullUp="pullUp" @pullDown="pullDown" :options="{mouseWheel: true}">
+  <v-roll ref="scrollView" class="scroll-view" @pullUp="pullUp" @pullDown="pullDown" :options="{mouseWheel: true}">
     <doc-content class="markdown-body"/>
-  </iscroll-view>
+  </v-roll>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 {
-  "name": "vscroll",
-  "version": "1.0.2",
+  "name": "v-roll",
+  "version": "1.0.1",
   "description": "IScroll for Vue 2.0 Component",
   "main": "index.js",
   "scripts": {

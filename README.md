@@ -1,32 +1,27 @@
-[![npm version](https://badge.fury.io/js/vue-iscroll-view.svg)](https://badge.fury.io/js/vue-iscroll-view)
 
-# vscroll
+# v-roll
 
 [IScroll](https://github.com/cubiq/iscroll) component for Vue 2.x
 
-## Demo
-
-> https://dafrok.github.io/vue-iscroll-view/
-
-## Install
+## 安装
 
 ```bash
-$ npm i vscroll
+$ npm i v-roll
 ```
 
-## Get Start
+## 开始
 
 ```javascript
-import vScroll from 'vscroll'
+import vRoll from 'v-roll'
 
-Vue.use(vScroll)
+Vue.use(vRoll)
 ```
 
 ```vue
 <template>
-  <iscroll-view class="scroll-view">
+  <v-roll class="scroll-view">
     Your contents
-  </iscroll-view>
+  </v-roll>
 </tempalte>
 
 <style>
@@ -50,9 +45,9 @@ Vue.use(vScroll)
 
 ```vue
 <template>
-  <iscroll-view :options="{preventDefault: false}">
+  <v-roll :options="{preventDefault: false}">
     Your contents
-  </iscroll-view>
+  </v-roll>
 </tempalte>
 ```
 
@@ -60,9 +55,9 @@ Vue.use(vScroll)
 
 ```vue
 <template>
-  <iscroll-view @scrollStart="log">
+  <v-roll @scrollStart="log">
     Your contents
-  </iscroll-view>
+  </v-roll>
 </tempalte>
 
 <script>
@@ -81,9 +76,9 @@ export default {
 ```vue
 <template>
   <div>
-    <iscroll-view ref="iscroll">
+    <v-roll ref="iscroll">
       Your contents
-    </iscroll-view>
+    </v-roll>
     <button @click="scrollToTop">Scroll To Top</button>
   </div>
 </tempalte>
@@ -108,9 +103,9 @@ export default {
 
 ```vue
 <template>
-  <iscroll-view @pullUp="load" @pullDown="refresh">
+  <v-roll @pullUp="load" @pullDown="refresh">
     Your contents
-  </iscroll-view>
+  </v-roll>
 </tempalte>
 
 <script>

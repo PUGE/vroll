@@ -8,7 +8,7 @@ div(ref="scrollView", :style="wrapperStyle", :class="wrapperClass")
 import Vue from 'vue'
 
 export default {
-  name: 'iscroll-view',
+  name: 'v-roll',
   props: {
     options: {
       type: Object,
