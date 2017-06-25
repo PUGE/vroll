@@ -1,7 +1,9 @@
-<template lang="pug">
-div(ref="scrollView", :style="wrapperStyle", :class="wrapperClass")
-  div(:style="scrollerStyle", :class="scrollerClass")
-    slot
+<template>
+<div ref="scrollView" :style="wrapperStyle" :class="wrapperClass">
+  <div :style="scrollerStyle" :class="scrollerClass">
+    <slot><slot>
+  </div>
+</div>
 </template>
 
 <script>
