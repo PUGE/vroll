@@ -1,7 +1,7 @@
 <template>
 <div ref="scrollView" :style="wrapperStyle" :class="wrapperClass">
   <div :style="scrollerStyle" :class="scrollerClass">
-    <slot><slot>
+    <slot></slot>
   </div>
 </div>
 </template>
